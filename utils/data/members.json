@@ -1,0 +1,72 @@
+[
+  {
+    "firebaseKey": "Mauv",
+    "image": "http://dummyimage.com/96x90.png/dddddd/000000",
+    "name": "Davin Glozman",
+    "role": "Davin",
+    "uid": "Yellow"
+  },
+  {
+    "firebaseKey": "Green",
+    "image": "http://dummyimage.com/82x95.png/dddddd/000000",
+    "name": "Demetris Reolfo",
+    "role": "Demetris",
+    "uid": "Maroon"
+  },
+  {
+    "firebaseKey": "Red",
+    "image": "http://dummyimage.com/88x91.png/cc0000/ffffff",
+    "name": "Lion Pendrid",
+    "role": "Lion",
+    "uid": "Indigo"
+  },
+  {
+    "firebaseKey": "Yellow",
+    "image": "http://dummyimage.com/88x93.png/ff4444/ffffff",
+    "name": "Ashlin Sanz",
+    "role": "Ashlin",
+    "uid": "Turquoise"
+  },
+  {
+    "firebaseKey": "Crimson",
+    "image": "http://dummyimage.com/96x96.png/5fa2dd/ffffff",
+    "name": "Hersh Wildes",
+    "role": "Hersh",
+    "uid": "Green"
+  },
+  {
+    "firebaseKey": "Pink",
+    "image": "http://dummyimage.com/86x95.png/dddddd/000000",
+    "name": "Terri Junes",
+    "role": "Terri",
+    "uid": "Mauv"
+  },
+  {
+    "firebaseKey": "Crimson",
+    "image": "http://dummyimage.com/91x94.png/cc0000/ffffff",
+    "name": "Siegfried De Winton",
+    "role": "Siegfried",
+    "uid": "Purple"
+  },
+  {
+    "firebaseKey": "Crimson",
+    "image": "http://dummyimage.com/97x98.png/cc0000/ffffff",
+    "name": "Wynn Maryska",
+    "role": "Wynn",
+    "uid": "Maroon"
+  },
+  {
+    "firebaseKey": "Crimson",
+    "image": "http://dummyimage.com/83x85.png/dddddd/000000",
+    "name": "Luis MacColm",
+    "role": "Luis",
+    "uid": "Yellow"
+  },
+  {
+    "firebaseKey": "Fuscia",
+    "image": "http://dummyimage.com/81x98.png/dddddd/000000",
+    "name": "Tris Fitzmaurice",
+    "role": "Tris",
+    "uid": "Crimson"
+  }
+]
