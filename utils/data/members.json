@@ -1,72 +1,44 @@
-[
-  {
-    "firebaseKey": "Mauv",
-    "image": "http://dummyimage.com/96x90.png/dddddd/000000",
+{
+  "-NguM4DHf1ieZHKOQTts" : {
+    "firebaseKey": "-NguM4DHf1ieZHKOQTts",
+    "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F835a4780-d9af-4220-b34a-536569575f42_423x512.jpeg",
     "name": "Davin Glozman",
-    "role": "Davin",
-    "uid": "Yellow"
+    "role": "Right Winger",
+    "uid": "7XFodamB2SSgkk1WjOqpcccbyeI2"
   },
-  {
-    "firebaseKey": "Green",
-    "image": "http://dummyimage.com/82x95.png/dddddd/000000",
+  "-NguMBQOhMqHI2WFH5xv" : {
+    "firebaseKey": "-NguMBQOhMqHI2WFH5xv",
+    "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F835a4780-d9af-4220-b34a-536569575f42_423x512.jpeg",
     "name": "Demetris Reolfo",
-    "role": "Demetris",
-    "uid": "Maroon"
+    "role": "Left Winger",
+    "uid": "7XFodamB2SSgkk1WjOqpcccbyeI2"
   },
-  {
-    "firebaseKey": "Red",
-    "image": "http://dummyimage.com/88x91.png/cc0000/ffffff",
+  "-NguMFFHUs66zOPs_qre" : {
+    "firebaseKey": "-NguMFFHUs66zOPs_qre",
+    "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F835a4780-d9af-4220-b34a-536569575f42_423x512.jpeg",
     "name": "Lion Pendrid",
-    "role": "Lion",
-    "uid": "Indigo"
+    "role": "Center",
+    "uid": "7XFodamB2SSgkk1WjOqpcccbyeI2"
   },
-  {
-    "firebaseKey": "Yellow",
-    "image": "http://dummyimage.com/88x93.png/ff4444/ffffff",
-    "name": "Ashlin Sanz",
-    "role": "Ashlin",
-    "uid": "Turquoise"
+  "-NguMIFHx2pbKrYCr6K5" : {
+    "firebaseKey": "-NguMIFHx2pbKrYCr6K5",
+    "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F835a4780-d9af-4220-b34a-536569575f42_423x512.jpeg",
+    "name": "Ashnod Sanz",
+    "role": " Right Defensemen",
+    "uid": "7XFodamB2SSgkk1WjOqpcccbyeI2"
   },
-  {
-    "firebaseKey": "Crimson",
-    "image": "http://dummyimage.com/96x96.png/5fa2dd/ffffff",
+  "-NguMLzeOEab3Gezs7Cc" : {
+    "firebaseKey": "-NguMLzeOEab3Gezs7Cc",
+    "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F835a4780-d9af-4220-b34a-536569575f42_423x512.jpeg",
     "name": "Hersh Wildes",
-    "role": "Hersh",
-    "uid": "Green"
+    "role": "Left Defensemen",
+    "uid": "7XFodamB2SSgkk1WjOqpcccbyeI2"
   },
-  {
-    "firebaseKey": "Pink",
-    "image": "http://dummyimage.com/86x95.png/dddddd/000000",
+  "-NguMPr6ftV4Oq9ndWg-" : {
+    "firebaseKey": "-NguMPr6ftV4Oq9ndWg-",
+    "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F835a4780-d9af-4220-b34a-536569575f42_423x512.jpeg",
     "name": "Terri Junes",
-    "role": "Terri",
-    "uid": "Mauv"
-  },
-  {
-    "firebaseKey": "Crimson",
-    "image": "http://dummyimage.com/91x94.png/cc0000/ffffff",
-    "name": "Siegfried De Winton",
-    "role": "Siegfried",
-    "uid": "Purple"
-  },
-  {
-    "firebaseKey": "Crimson",
-    "image": "http://dummyimage.com/97x98.png/cc0000/ffffff",
-    "name": "Wynn Maryska",
-    "role": "Wynn",
-    "uid": "Maroon"
-  },
-  {
-    "firebaseKey": "Crimson",
-    "image": "http://dummyimage.com/83x85.png/dddddd/000000",
-    "name": "Luis MacColm",
-    "role": "Luis",
-    "uid": "Yellow"
-  },
-  {
-    "firebaseKey": "Fuscia",
-    "image": "http://dummyimage.com/81x98.png/dddddd/000000",
-    "name": "Tris Fitzmaurice",
-    "role": "Tris",
-    "uid": "Crimson"
+    "role": "Center",
+    "uid": "7XFodamB2SSgkk1WjOqpcccbyeI2"
   }
-]
+}
