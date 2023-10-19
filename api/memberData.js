@@ -70,6 +70,15 @@ const getSingleMember = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const searchMembers = (searchValue, uid) => new Promise((resolve, reject) => {
+  getMembers(uid).then((memberArray) => {
+    const searchResults = memberArray.filter((member) => (
+      member.name.toLowerCase().includes(searchValue)
+    ));
+    resolve(searchResults);
+  }).catch(reject);
+});
+
 export {
-  getMembers, createMember, updateMember, deleteMember, getSingleMember,
+  getMembers, createMember, updateMember, deleteMember, getSingleMember, searchMembers,
 };

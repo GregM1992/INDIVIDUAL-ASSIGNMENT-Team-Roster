@@ -20,12 +20,12 @@ function ShowMembers() {
 
   return (
     <div className="text-center my-4">
-      <Link href="/team-view/new" passHref>
+      <Link href="/member-view/new" passHref>
         <Button>Add Member</Button>
       </Link>
       <div className="d-flex flex-wrap">
-        {members.map((book) => (
-          <MemberCard key={members.firebaseKey} memberObj={book} onUpdate={getAllMembers} />
+        {members.map((mem) => (
+          <MemberCard key={members.firebaseKey} memberObj={mem} onUpdate={getAllMembers} />
         ))}
       </div>
 

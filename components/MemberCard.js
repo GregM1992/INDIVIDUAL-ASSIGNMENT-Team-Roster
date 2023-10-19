@@ -21,7 +21,7 @@ function MemberCard({ memberObj, onUpdate }) {
       <Card.Body>
         <Card.Title>{memberObj.name}</Card.Title>
         <Card.Text>{memberObj.role}</Card.Text>
-        <Link href={`/team-view/edit/${memberObj.firebaseKey}`} passHref>
+        <Link href={`/member-view/edit/${memberObj.firebaseKey}`} passHref>
           <Button variant="info">EDIT</Button>
         </Link>
         <Button variant="danger" onClick={deleteThisMember} className="m-2">

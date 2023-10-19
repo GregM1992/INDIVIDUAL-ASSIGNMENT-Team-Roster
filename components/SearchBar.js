@@ -1,11 +1,23 @@
-import React from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { useRouter } from 'next/router';
+import React, { useState } from 'react';
+import { Form, FormControl } from 'react-bootstrap';
 
 export default function SearchBar() {
+  const [searchInput, setSearchInput] = useState('');
+  const router = useRouter();
+
+  const handleChange = (e) => {
+    setSearchInput(e.target.value.toLowerCase());
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (searchInput !== '') router.push(`../search/${searchInput}`);
+    setSearchInput('');
+  };
   return (
-    <div className="searchDiv">
-      <Form.Control className="searchBar" />
-      <Button type="submit"> Search </Button>
-    </div>
+    <Form className="search-bar" onSubmit={handleSubmit}>
+      <FormControl type="text" size="sm" onChange={handleChange} value={searchInput} />
+    </Form>
   );
 }

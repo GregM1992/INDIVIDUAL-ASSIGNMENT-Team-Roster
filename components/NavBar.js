@@ -17,16 +17,19 @@ export default function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Link passHref href="/team-view/members">
-              <Nav.Link>Team View</Nav.Link>
+            <Link passHref href="/member-view/members">
+              <Nav.Link>Member View</Nav.Link>
             </Link>
-            <Link passHref href="/team-view/new">
+            <Link passHref href="/member-view/new">
               <Nav.Link>Create Member</Nav.Link>
+            </Link>
+            <Link passHref href="/team-view/teams">
+              <Nav.Link>Team View</Nav.Link>
             </Link>
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
           </Nav>
+          <SearchBar />
         </Navbar.Collapse>
-        <SearchBar />
       </Container>
     </Navbar>
   );
