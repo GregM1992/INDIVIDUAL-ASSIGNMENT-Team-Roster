@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useAuth } from '../../utils/context/authContext';
+import { searchMembers } from '../../api/memberData';
 import MemberCard from '../../components/MemberCard';
-import searchMembers from '../../api/memberData';
 
 export default function Search() {
   const [filteredMembers, setFilteredMembers] = useState([]);
@@ -19,7 +19,7 @@ export default function Search() {
     return () => {
       setFilteredMembers([]);
     };
-  }, [user.uid]);
+  }, []);
 
   return (
     <>
@@ -27,5 +27,6 @@ export default function Search() {
         {filteredMembers.map((member) => <MemberCard key={member.firebaseKey} memberObj={member} onUpdate={searchAllMembers} />)}
       </div>
     </>
+
   );
 }

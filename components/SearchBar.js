@@ -10,9 +10,8 @@ export default function SearchBar() {
     setSearchInput(e.target.value.toLowerCase());
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (searchInput !== '') router.push(`../search/${searchInput}`);
+  const handleSubmit = () => {
+    if (searchInput !== '') router.push(`/search/${searchInput}`);
     setSearchInput('');
   };
   return (
