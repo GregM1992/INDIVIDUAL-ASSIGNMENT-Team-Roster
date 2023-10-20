@@ -8,7 +8,7 @@ import { deleteTeam } from '../api/teamData';
 
 function TeamCard({ teamObj, onUpdate }) {
   const deleteATeam = () => {
-    if (window.confirm(`Do you want to delete order by ${teamObj.team_name}?`)) {
+    if (window.confirm(`Do you want to delete ${teamObj.team_name}?`)) {
       deleteTeam(teamObj.firebaseKey).then(() => onUpdate());
     }
   };
@@ -18,7 +18,7 @@ function TeamCard({ teamObj, onUpdate }) {
       <Card.Img variant="top" src={teamObj.image} alt={teamObj.team_name} style={{ height: '400px' }} />
       <Card.Body>
         <Card.Title>{teamObj.team_name}</Card.Title>
-        <Card.Text>{teamObj.division}</Card.Text>
+        <Card.Text>{teamObj.division} Division</Card.Text>
         <Link href={`/team-view/${teamObj.firebaseKey}`} passHref>
           <Button variant="primary" className="m-2">VIEW</Button>
         </Link>

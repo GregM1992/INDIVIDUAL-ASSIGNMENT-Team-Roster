@@ -33,13 +33,13 @@ function MemberForm({ obj }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (obj.firebaseKey) {
-      updateMember(formInput).then(() => router.push('/team-view/members'));
+      updateMember(formInput).then(() => router.push('/member-view/members'));
     } else {
       const payload = { ...formInput, uid: user.uid };
       createMember(payload).then(({ name }) => {
         const patchPayload = { firebaseKey: name };
         updateMember(patchPayload).then(() => {
-          router.push('/team-view/members');
+          router.push('/member-view/members');
         });
       });
     }

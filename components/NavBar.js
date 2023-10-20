@@ -26,6 +26,9 @@ export default function NavBar() {
             <Link passHref href="/team-view/teams">
               <Nav.Link>Team View</Nav.Link>
             </Link>
+            <Link passHref href="/team-view/new">
+              <Nav.Link>Create Team</Nav.Link>
+            </Link>
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
           </Nav>
           <SearchBar />
