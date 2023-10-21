@@ -18,5 +18,9 @@ a {
 }
 
 body {
-  background-color: #88effd;
+  background-color: #3c332f;
+}
+
+.searchDiv {
+  display: flex;
 }
