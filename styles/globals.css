@@ -24,3 +24,30 @@ body {
 .searchDiv {
   display: flex;
 }
+
+.addMem{
+  display: flex;
+  flex-wrap: wrap;
+}
+ .teamMem{
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ #teams{
+  justify-content: center;
+ }
+ .teamHead{
+  margin: auto;
+  color: aliceblue             ;
+ }
+.page-head{
+  margin: auto !important;
+}
+
+.team-page{
+  display: flex;
+}
+ .addTeamBtn{
+  margin: auto;
+ }
