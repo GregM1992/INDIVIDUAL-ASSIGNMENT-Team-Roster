@@ -48,7 +48,8 @@ export default function ViewTeam() {
             <Card>
               <img className="card-img-top" src={member.image} alt={member.name} style={{ height: '80px', width: '80px' }} />
               <div className="card-body">
-                <h5 className="card-title">{member.role}</h5>
+                <h5 className="card-title">{member.name}</h5>
+                <h6 className="card-subtitle"> {member.role}</h6>
               </div>
               <Button onClick={() => addMemberToTeam(member.firebaseKey)}> Add Member to Team</Button>
             </Card>
